@@ -13,7 +13,6 @@ in each subsequent expression.
 ## Example
 
 ```
-> hero = %{name: %{first: "Han", last: "Solo"}}
-> [:name, :first] <~> put_in(hero, :it, "Ben") 
-%{name: %{first: "Ben", last: "Solo"}}
+> 3 <~> 4 + :it
+7
 ```
